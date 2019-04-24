@@ -9,10 +9,12 @@ class LoginForm extends React.Component {
     // this.handleInputChange = this.handleInputChange.bind(this);
   }
 
-  handleSubmit = event => {
-    event.preventDefault()
-    this.sendFormDataSomewhere(this.state)
-  }
+  handleSubmit(event) {
+  alert('A name was submitted: ' + this.state.value);
+  alert('A password was submitted: ' + this.state.value);
+  event.preventDefault();
+}
+
   //
   // handleUsernameChange = event => {
   //   this.setState({
