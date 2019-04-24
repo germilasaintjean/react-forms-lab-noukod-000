@@ -13,7 +13,8 @@ class TwitterMessage extends React.Component {
     return (
       <div>
         <strong>Your message:</strong>
-        <input type="text" value={this.state.message} onChange={event = > this.setState({message:event.target.value})} /> {this.props.maxChars - this.state.message.lenght}
+        <input type="text" value={this.state.message} onChange={event => this.setState({message:event.target.value})} /> 
+        {this.props.maxChars - this.state.message.lenght}
       </div>
     );
   }
