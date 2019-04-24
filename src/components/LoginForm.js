@@ -5,8 +5,8 @@ class LoginForm extends React.Component {
     super(props);
 
     this.state = {value: ''};
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleInputChange = this.handleInputChange.bind(this);
+    // this.handleSubmit = this.handleSubmit.bind(this);
+    // this.handleInputChange = this.handleInputChange.bind(this);
   }
 
   handleSubmit = event => {
