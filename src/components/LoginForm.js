@@ -13,7 +13,7 @@ class LoginForm extends React.Component {
     event.preventDefault()
     this.sendFormDataSomewhere(this.state)
   }
-  // 
+  //
   // handleUsernameChange = event => {
   //   this.setState({
   //       username: event.target.value
@@ -30,7 +30,7 @@ class LoginForm extends React.Component {
     this.setState({
       value: event.target.value,
     });
-  
+
   }
 
   render() {
