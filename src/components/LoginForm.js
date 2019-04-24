@@ -14,12 +14,24 @@ class LoginForm extends React.Component {
     this.sendFormDataSomewhere(this.state)
   }
 
-  handleChange= event => {
+  handleUsernameChange = event => {
     this.setState({
-      value: event.target.value,
-    });
-
+        username: event.target.value
+    })
   }
+
+  handlePasswordChange = event => {
+    this.setState({
+    password: event.target.value
+    })
+  }
+
+  // handleChange= event => {
+  //   this.setState({
+  //     value: event.target.value,
+  //   });
+  //
+  // }
 
   render() {
     return (
