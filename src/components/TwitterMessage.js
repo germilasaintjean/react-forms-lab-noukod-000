@@ -1,8 +1,8 @@
 import React from "react";
 
 class TwitterMessage extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state = {};
   }
@@ -11,7 +11,7 @@ class TwitterMessage extends React.Component {
     return (
       <div>
         <strong>Your message:</strong>
-        <input type="text" onChange={this.handleChange} value={this.statte.username}/>
+        <input type="text" />
       </div>
     );
   }
